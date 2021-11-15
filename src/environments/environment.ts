@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  applicationUrl: 'assets/application.json'
+  dataUrl: 'assets/application.json'
 };
 
 /*

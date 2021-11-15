@@ -1,0 +1,7 @@
+<p>This is a simple Angular Application to display filtered Job applications from a Lambda function</p>
+<p>The api is only sending over job applications that have answers that match an answer key</p>
+<div>
+    <div *ngFor="let app of applications">
+        <app-job-application [application]="app"></app-job-application>
+    </div>
+</div>
