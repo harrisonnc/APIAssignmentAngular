@@ -1,1 +1,5 @@
-<div>{{application | json}}</div>
+<div>Name: {{ application.Name }}</div>
+
+<div *ngFor="let quest of application.Questions">
+    <app-question [question]=quest></app-question>
+</div>

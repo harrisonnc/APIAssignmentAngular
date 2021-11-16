@@ -1,6 +1,6 @@
 import { Question } from "./question";
 
 export class Application {
-    name: string;
+    Name: string;
     Questions: Question[]
 }

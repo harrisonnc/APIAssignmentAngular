@@ -7,12 +7,14 @@ import { AppHomeComponent } from './app-home/app-home.component';
 import { StoreModule } from '@ngrx/store';
 import { JobApplicationComponent } from './job-application/job-application.component';
 import { HttpClientModule } from '@angular/common/http';
+import { QuestionComponent } from './question/question.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AppHomeComponent,
     JobApplicationComponent,
+    QuestionComponent,
   ],
   imports: [
     BrowserModule,
